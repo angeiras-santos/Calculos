@@ -5,14 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Calculos
-{
-    internal class Program
+{   
+    /// <summary>
+     /// Implementa operações aritméticas.
+     /// </summary>
+    internal class Aritmetica
     {
-        static void Main(string[] args)
+        public int Somar(int x, int y)
         {
-            Console.WriteLine("Aplicação Cálculos");
-
-            Console.ReadKey();
+            return x + y;
         }
     }
 }
