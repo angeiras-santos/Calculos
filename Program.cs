@@ -5,49 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Calculos
-{   
-    /// <summary>
-     /// Implementa operações aritméticas.
-     /// </summary>
-    internal class Aritmetica
+{
+    internal class Program
     {
-        /// <summary>
-        /// Tipo de conversão de temperatura a executar.
-        /// </summary>
-        public enum ConversaoTemperatura
+        static void Main(string[] args)
         {
-            Nulo = 0,
-            CelsiusFahrenheit,
-            FahrenheitCelsius
-        }
-        /// <summary>
-        /// Operação soma.
-        /// </summary>
-        /// <returns>Retorna a soma de dois números.</returns>
-        public int Somar(int x, int y)
-        {
-            return x + y;
-        }
-        /// <summary>
-        /// Operação subtração.
-        /// </summary>
-        /// <returns>Retorna o resultado da subtração de dois números.</returns>
-        public int Subtrair(int x, int y)
-        {
-            return x - y;
-        }
-        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
-        {
-            if (conversao == ConversaoTemperatura.CelsiusFahrenheit)
-            {
-                return (temperatura * 1.8000 + 32);
-            }
-            else if (conversao == ConversaoTemperatura.FahrenheitCelsius)
-            {
-                return ((temperatura - 32) / 1.8000);
-            }
+            Console.WriteLine("Aplicação Cálculos");
+            Console.WriteLine($"4 + 2 = {Aritmetica.Somar(4, 2)}");
+            Console.WriteLine($"4 - 2 = {Aritmetica.Subtrair(4, 2)}");
 
-            return -1;
+            Console.ReadKey();
         }
     }
 }
