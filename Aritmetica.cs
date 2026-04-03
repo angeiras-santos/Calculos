@@ -13,7 +13,7 @@ namespace Calculos
     {
         
         /// <summary>
-        /// Operação soma.
+        /// Operação somar.
         /// </summary>
         /// <returns>Retorna a soma de dois números.</returns>
         public static int Somar(int x, int y)
