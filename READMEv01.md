@@ -1,10 +1,10 @@
-# Calculos :1234:
+# Calculos:
 
 Aplicação C# para efetuar diferente tipo de cálculos.
 
 ![Aplicação Cálculos](aplicacao-calculos.png)
 
-Desenvolvida no âmbito da ação de formação **Introdução ao Git e GitHub**
+**Introdução ao Git e GitHub**
 
 ## Operações Suportadas
 
